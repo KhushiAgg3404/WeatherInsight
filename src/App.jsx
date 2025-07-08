@@ -52,7 +52,7 @@ const App = () => {
       </div>
 
       {/* Weather Card */}
-      <div className="w-full max-w-screen-lg bg-white/10 text-white backdrop-blur-lg rounded-3xl shadow-2xl px-20 py-10 mt-6">
+      <div className="w-full max-w-screen-lg bg-white/10 text-white backdrop-blur-lg rounded-3xl shadow-2xl px-20 py-10 my-6">
         <TopButtons setQuery={setQuery} />
         <Inputs setQuery={setQuery} setUnits={setUnits} />
 
